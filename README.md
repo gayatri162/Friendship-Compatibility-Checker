@@ -17,7 +17,7 @@
 1. Clone the repo
    ```bash
    git clone
-   
+   https://github.com/gayatri162/Friendship-Compatibility-Checker.git
    
 2. Open `index.html` in your browser
 
