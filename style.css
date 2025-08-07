@@ -1,0 +1,100 @@
+#logo {
+    height: 65px; 
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#ebe6eb
+}
+.container {
+    padding: 20px;
+}
+
+.calculator{
+    text-align: center;
+}
+
+.head {
+    font-size: 2.1em;
+    color: #333;
+    margin-top: 40px;
+}
+
+.description {
+    font-size: 1.6em;
+    color: #666;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+#yourName, #friendName {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: block
+}
+
+#button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.button-group{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input-group{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#gif {
+    width: 60px;
+    max-width: 100%;
+    margin: 10px auto;
+    display: block;
+    mix-blend-mode: multiply;
+}
+.footer {
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+@media (max-width: 600px) {
+   
+    .head {
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+    .description {
+        font-size: 1.5em;
+        padding:0 15px;
+    }
+
+    #yourName, #friendName {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    #gif{
+        width: 40px;
+    }
+
+    #button {
+        width: 90%;
+        font-size: 16px;
+    }
+
+}

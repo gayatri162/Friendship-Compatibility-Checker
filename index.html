@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friendship Calculator</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="./design/1.png" alt="friendship calculator text" id="logo" />
+
+      <div class="calculator">
+        <h2 class="head">Welcome to Friendship compatibilty calculator</h2>
+        <p class="description">
+          Curious about the strength of a friendship? <br />
+          This tool provides a lighthearted way to check the compatibility
+          between two individuals based on their names. Now you can check the
+          strength of your bond to your friend or crush. <br />
+          Simply enter both names below and get a percentage score that reflects
+          your friendship potential.
+        </p>
+
+        <form id="compatibilityForm">
+          <div class="input-group">
+            <input type="text" id="yourName" placeholder="Your Name" required />
+
+            <img
+              src="design/friends.gif"
+              alt="friends gif"
+              id="gif" 
+            />
+
+            <input
+              type="text"
+              id="friendName"
+              placeholder="Friend's Name"
+              required
+            />
+          </div>
+          <div class="button-group">
+            <button type="submit" id="button">Calculate</button>
+          </div>
+        </form>
+
+        <h3 id="result"></h3>
+      </div>
+
+      <div class="footer">
+        <footer>© 2025 Gayatri</footer>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
