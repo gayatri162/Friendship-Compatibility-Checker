@@ -17,3 +17,11 @@ document.getElementById("compatibilityForm").addEventListener("submit", function
   const resultElement = document.getElementById("result");
   resultElement.innerText = `${name1} and ${name2} are ${score}% compatible as friends! ❤️`;
 });
+
+// Clear result when any input is changed
+document.getElementById("yourName").addEventListener("input", clearResult);
+document.getElementById("friendName").addEventListener("input", clearResult);
+
+function clearResult() {
+  document.getElementById("result").innerText = "";
+}
