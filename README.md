@@ -10,7 +10,7 @@
 
 ## 🚀 Live Demo
 
-[Click here to try it out]()
+[Click here to try it out](https://gayatri162.github.io/Friendship-Compatibility-Checker/)
 
 ## 🗂️ How to use
 
